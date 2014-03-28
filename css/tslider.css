@@ -1,0 +1,30 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+
+html { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+q, blockquote { quotes: none; }
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+
+a img { border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
+
+body, html { height: 100%; position: relative; }
+
+#t-slider { position: relative; display: block; width: 100%; height: 100%; overflow: hidden; top: 0%; z-index: 21; background-color: #CCC; }
+#t-slider img { display: none; }
+#t-slider .tdisplay { height: 100%; }
+#t-slider .tdisplay .tslider-display-new { display: none; }
+#t-slider .tslider-display-new { height: 100%; background-size: cover; background-repeat: no-repeat; background-position: center center; width: 90%; float: left; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; z-index: 9; position: absolute; left: 0; top: 0; border-right: 2px solid #fff; padding: 5%; }
+#t-slider .t-slider-slides { display: none; }
+#t-slider .t-slider-thumbs { width: 10%; position: absolute; right: 0; top: 0; margin: 0; padding: 0; list-style: none; height: 100%; display: block; z-index: 10; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+#t-slider .t-slider-thumbs:not(.bw) li { border: 6px solid blue; background-color: #000; }
+#t-slider .t-slider-thumbs li { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-repeat: no-repeat; background-position: center center; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; height: 16.66667%; width: 100%; display: block; margin: 0; padding: 0; cursor: pointer; }
+
+.tslider-display-new > div { color: #fff; font-size: 45px; font-family: helvetica, arial, sans-serif; line-height: 60px; width: 60%; text-shadow: rgba(0, 0, 0, 0.7) 2px 3px 1px; }
