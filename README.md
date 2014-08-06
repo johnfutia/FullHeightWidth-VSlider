@@ -1,4 +1,4 @@
-Tslider 100% Height and Width Slider with vertical thumbnails [
+Tslider 100% Height and Width Slider with vertical thumbnails
 =====================
 
 
